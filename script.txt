@@ -1,0 +1,25 @@
+ var y = document.getElementsByClassName('artdeco-button artdeco-button--2 artdeco-button--secondary ember-view');for (a in y) {y[a].click();setTimeout(1000); 
+var c = document.getElementsByClassName('artdeco-button artdeco-button--2 artdeco-button--primary ember-view ml1'); c[0].click();}
+
+function exec()
+{
+var c = document.getElementsByClassName('artdeco-button artdeco-button--2 artdeco-button--primary ember-view ml1'); c[0].click();
+}
+
+
+
+
+
+function fib(n)
+{
+    if (n<0 ||n ==0 || n==1)
+    {
+        return 1;
+    }
+    else
+        return fib(n-1) + fib(n-2);
+}
+
+
+
+ var y = document.getElementsByClassName('artdeco-button artdeco-button--2 artdeco-button--secondary ember-view');for (a in y) {y[a].click();fib(100); var c = document.getElementsByClassName('artdeco-button artdeco-button--2 artdeco-button--primary ember-view ml1'); c[0].click();}
